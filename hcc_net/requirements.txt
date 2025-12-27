@@ -1,0 +1,21 @@
+# core
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+tqdm>=4.66
+
+# deep learning (choose ONE torch line below that matches your setup)
+# torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1         # CPU-only (works anywhere)
+# or CUDA 12.1 wheels:
+# torch==2.3.1+cu121 torchvision==0.18.1+cu121 torchaudio==2.3.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+# or CUDA 11.8 wheels:
+# torch==2.3.1+cu118 torchvision==0.18.1+cu118 torchaudio==2.3.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+timm>=1.0.7
+albumentations>=1.4.3
+opencv-python-headless>=4.9.0
+matplotlib>=3.8
+# optional (medical imaging helpers)
+monai>=1.3.0
+torchio>=0.19.6
+nibabel
